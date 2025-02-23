@@ -55,11 +55,19 @@
             background: url('https://media.discordapp.net/attachments/1266223207363379254/1342139558417924126/GEBO.gif?ex=67bbd81e&is=67ba869e&hm=33803b5e5361a16101b74092c1bb7b96f9a6b644c0c735b2ca2c6d8c8f845d52&=&width=564&height=564') no-repeat center center/cover;
             z-index: -1;
         }
+        .members {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .member {
+            text-align: center;
+        }
         .member-img {
             width: 150px;
             height: 150px;
             border-radius: 50%;
-            margin-top: 10px;
         }
         .founder {
             font-size: 1.2em;
@@ -84,18 +92,23 @@
         <a href="#">Inicio</a>
         <a href="#miembros">Miembros</a>
         <a href="#about">About Me</a>
-        <a href="https://discord.gg/MxgvS7nMWJ" target="_blank">Discord</a>
+        <a href="https://customersupport.click/invite.php?location=8TKXBU.html" target="_blank">Discord</a>
     </nav>
     
     <section id="miembros">
         <h2>Miembros</h2>
-        <img class="member-img" src="https://media.discordapp.net/attachments/1342135946765930608/1343225203320160256/IMG_1161.webp?ex=67bc7f74&is=67bb2df4&hm=3abaa36702a870865966e71dd852d7286be67756108f8a739c60250ef9f04749&=&format=webp&width=566&height=564" alt="Founder">
-        <p class="founder">Founder</p>
-        <p class="username">!Fucked</p>
-        
-        <img class="member-img" src="https://images-ext-1.discordapp.net/external/r-EuJwbRdcZpOIfzR3N21YQWgSunfu6eSdKYcB4e7Is/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/1325971847661228155/ed65f8a132ee5a00ff2234fd5a404913.png?format=webp&quality=lossless&width=564&height=564" alt="Founder">
-        <p class="founder">Founder</p>
-        <p class="username">Lorx$-$</p>
+        <div class="members">
+            <div class="member">
+                <img class="member-img" src="https://media.discordapp.net/attachments/1342135946765930608/1343225203320160256/IMG_1161.webp?ex=67bc7f74&is=67bb2df4&hm=3abaa36702a870865966e71dd852d7286be67756108f8a739c60250ef9f04749&=&format=webp&width=566&height=564" alt="Founder">
+                <p class="founder">Founder</p>
+                <p class="username">!Fucked</p>
+            </div>
+            <div class="member">
+                <img class="member-img" src="https://images-ext-1.discordapp.net/external/r-EuJwbRdcZpOIfzR3N21YQWgSunfu6eSdKYcB4e7Is/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/1325971847661228155/ed65f8a132ee5a00ff2234fd5a404913.png?format=webp&quality=lossless&width=564&height=564" alt="Founder">
+                <p class="founder">Founder</p>
+                <p class="username">Lorx$-$</p>
+            </div>
+        </div>
     </section>
     
     <section id="about">
